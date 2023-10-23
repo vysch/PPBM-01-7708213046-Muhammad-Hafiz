@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_keyboard_backspace_24"
+            android:id="@+id/backnews"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:fontFamily="@font/anya"
+            android:textColor="@color/hijau"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="-45dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="-10dp">
+
+                <EditText
+                    android:layout_width="520dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="0dp"
+                    android:hint="search"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:background="@drawable/custom_edittext"
+                    android:textStyle="italic"/>
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/berita1"
+                    android:scaleType="centerCrop"/>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Seorang Mahasiswa Tenggelam"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:text="didanau galau telyu"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Seorang mahasiswa Telkom University tewas setelah menyelamatkan temannya yang sengaja loncat ke Danau Tekno di dalam kampus tersebut.
+Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11 Agustus 2022"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"
+            android:text="Mahasiswa TRM"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt2"
+            android:text="Juara Umum Porseni FIT"
+            android:layout_below="@+id/text1"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="-8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt3"
+            android:layout_marginTop="-5dp"
+            android:layout_below="@+id/txt2"
+            android:text="dikomandoi oleh kepala departemen"
+            android:textSize="13sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt4"
+            android:layout_marginTop="-5dp"
+            android:layout_below="@+id/txt3"
+            android:text="OMB Himatredia, TRM berhasil"
+            android:textSize="13sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:layout_below="@+id/txt4"
+            android:text="berhasil menjuarai porseni FIT"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="-80dp"
+            android:layout_toRightOf="@id/txt2"
+            android:src="@drawable/trm"
+            android:scaleType="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text6"
+            android:text="Menjadi jutawan"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt7"
+            android:text="Dengan Menjual Nutrisari DI WDP"
+            android:layout_below="@+id/text6"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="-8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt8"
+            android:layout_marginTop="-5dp"
+            android:layout_below="@+id/txt7"
+            android:text="seorang penjual yang kerap disapa"
+            android:textSize="13sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt9"
+            android:layout_marginTop="-5dp"
+            android:layout_below="@+id/txt8"
+            android:text="babeh ini berhasil menjual nutrisari"
+            android:textSize="13sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:layout_below="@+id/txt9"
+            android:text="dengan omset jutaan perhari"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="-80dp"
+            android:layout_toRightOf="@id/txt7"
+            android:src="@drawable/wdp"
+            android:scaleType="center"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

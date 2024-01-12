@@ -41,7 +41,7 @@ class splescren : AppCompatActivity (){
             }
 
             override fun onTransitionCompleted(motionLayout: MotionLayout?, currentId: Int) {
-                startActivity(Intent(this@splescren,MainActivity::class.java))
+                startActivity(Intent(this@splescren,slidetoact::class.java))
                 finish()
             }
 

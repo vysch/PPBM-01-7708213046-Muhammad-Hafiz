@@ -2,6 +2,18 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+android {
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+android {
+
+    buildFeatures {
+        dataBinding = true
+    }
+}
 
 android {
     namespace = "com.example.login"
@@ -23,6 +35,17 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
+
+    buildFeatures{
+
+        viewBinding = true
+
+    }
+
+    buildFeatures {
+        dataBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -30,6 +53,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
 
 
 }
@@ -45,4 +69,8 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation("com.ncorti:slidetoact:0.11.0")
+    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
+    implementation ("com.google.android.material:material:1.1.0")
+
 }

@@ -9,10 +9,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-20dp"
+        android:layout_marginTop="0dp"
         android:text="Reunitez"
         android:textAlignment="center"
         android:textColor="@color/hijau"
@@ -32,7 +33,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:layout_height="0dp" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -79,6 +80,7 @@
                 android:drawablePadding="8dp"
                 android:hint="Username"
                 android:padding="8dp"
+                android:inputType="textEmailAddress"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/cardview_dark_background" />
 
@@ -100,7 +102,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Remember Me"
+                android:id="@+id/rememberme"
                 android:textColor="@color/hijau"
+                android:backgroundTint="@color/hijau"
                 android:textSize="16dp" />
 
             <Button

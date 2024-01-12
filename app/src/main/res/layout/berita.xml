@@ -93,21 +93,25 @@
             android:layout_marginTop="5dp"
             android:text="Seorang Mahasiswa Tenggelam"
             android:textStyle="bold"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="-5dp"
             android:text="didanau galau telyu"
             android:textStyle="bold"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:text="Seorang mahasiswa Telkom University tewas setelah menyelamatkan temannya yang sengaja loncat ke Danau Tekno di dalam kampus tersebut.
 Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11 Agustus 2022"
-            android:textSize="15sp"/>
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+
     </LinearLayout>
 
     <RelativeLayout
@@ -122,7 +126,8 @@ Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11
             android:id="@+id/text1"
             android:text="Mahasiswa TRM"
             android:textStyle="bold"
-            android:textSize="17dp"/>
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -131,8 +136,10 @@ Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11
             android:layout_below="@+id/text1"
             android:textStyle="bold"
             android:textSize="17dp"
-            android:layout_marginTop="-8dp"/>
+            android:layout_marginTop="-8dp"
+            android:textColor="@color/black"/>
         <TextView
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txt3"
@@ -147,14 +154,16 @@ Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11
             android:layout_marginTop="-5dp"
             android:layout_below="@+id/txt3"
             android:text="OMB Himatredia, TRM berhasil"
-            android:textSize="13sp"/>
+            android:textSize="13sp"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="-5dp"
             android:layout_below="@+id/txt4"
             android:text="berhasil menjuarai porseni FIT"
-            android:textSize="13sp"/>
+            android:textSize="13sp"
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="80dp"
@@ -163,7 +172,8 @@ Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11
             android:layout_marginLeft="-80dp"
             android:layout_toRightOf="@id/txt2"
             android:src="@drawable/trm"
-            android:scaleType="center"/>
+            android:scaleType="center"
+            />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -177,13 +187,15 @@ Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11
             android:id="@+id/text6"
             android:text="Menjadi jutawan"
             android:textStyle="bold"
-            android:textSize="17dp"/>
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txt7"
             android:text="Dengan Menjual Nutrisari DI WDP"
             android:layout_below="@+id/text6"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="17dp"
             android:layout_marginTop="-8dp"/>
@@ -193,6 +205,7 @@ Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11
             android:id="@+id/txt8"
             android:layout_marginTop="-5dp"
             android:layout_below="@+id/txt7"
+            android:textColor="@color/black"
             android:text="seorang penjual yang kerap disapa"
             android:textSize="13sp"/>
         <TextView
@@ -200,6 +213,7 @@ Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11
             android:layout_height="wrap_content"
             android:id="@+id/txt9"
             android:layout_marginTop="-5dp"
+            android:textColor="@color/black"
             android:layout_below="@+id/txt8"
             android:text="babeh ini berhasil menjual nutrisari"
             android:textSize="13sp"/>
@@ -208,6 +222,7 @@ Kejadian mahasiswa Telkom University tewas di danau kampus terjadi pada Kamis 11
             android:layout_height="wrap_content"
             android:layout_marginTop="-5dp"
             android:layout_below="@+id/txt9"
+            android:textColor="@color/black"
             android:text="dengan omset jutaan perhari"
             android:textSize="13sp"/>
 

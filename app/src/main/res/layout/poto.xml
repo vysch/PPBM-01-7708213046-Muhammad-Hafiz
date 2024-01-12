@@ -67,12 +67,14 @@
                         android:layout_marginTop="70dp"
                         android:layout_marginLeft="10dp"
 
+
                         >
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:src="@drawable/poto1"
                             android:scaleType="centerCrop"
+                            android:id="@+id/pt1"
                             />
 
 
@@ -96,6 +98,7 @@
                             android:layout_height="250dp"
                             android:src="@drawable/poto2"
                             android:scaleType="centerCrop"
+                            android:id="@+id/pt3"
                             />
 
 
@@ -121,6 +124,7 @@
                             android:layout_height="250dp"
                             android:src="@drawable/poto3"
                             android:scaleType="centerCrop"
+                            android:id="@+id/pt2"
                             />
 
 
@@ -145,6 +149,7 @@
                             android:layout_height="250dp"
                             android:src="@drawable/poto4"
                             android:scaleType="centerCrop"
+                            android:id="@+id/pt4"
                             />
                     </androidx.cardview.widget.CardView>
                     <TextView
@@ -166,6 +171,7 @@
                             android:layout_height="250dp"
                             android:src="@drawable/poto5"
                             android:scaleType="centerCrop"
+                            android:id="@+id/pt5"
                             />
                     </androidx.cardview.widget.CardView>
 

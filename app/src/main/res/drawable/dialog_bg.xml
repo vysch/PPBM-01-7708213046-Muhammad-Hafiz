@@ -3,8 +3,8 @@
     <solid
         android:color="@color/hijau"/>
     <corners
-        android:topLeftRadius="60dp"
-        android:topRightRadius="60dp"/>
+        android:topLeftRadius="40dp"
+        android:topRightRadius="40dp"/>
     <padding
         android:left="10dp"
         android:top="10dp"

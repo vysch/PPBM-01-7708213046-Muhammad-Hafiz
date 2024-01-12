@@ -31,7 +31,7 @@
         android:fontFamily="@font/anya"
         android:textColor="@color/hijau"
         android:layout_marginBottom="5dp"
-        android:layout_marginLeft="-60dp"
+        android:layout_marginLeft="-35dp"
         android:textStyle="bold"
         />
     </LinearLayout>
@@ -60,9 +60,10 @@
             android:layout_marginLeft="20dp"
             android:fontFamily="@font/pmedium"
             android:includeFontPadding="true"
-            android:text="Muhammad Hafiz"
+            android:text="MUHAMMAD HAFIZ"
             android:textAlignment="center"
             android:textColor="@color/white"
+            android:textStyle="bold|italic"
             android:textSize="25dp" />
 
         <TextView
@@ -85,35 +86,123 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="-60dp"
         android:layout_gravity="center"
-        android:padding="20dp"
-        android:layout_marginLeft="30dp">
+        android:padding="0dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="0dp">
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="250dp"
-            android:layout_height="60dp"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
             android:layout_margin="10dp"
             app:cardBackgroundColor="@color/white"
             android:layout_gravity="center"
             app:cardElevation="7dp"
-            app:cardCornerRadius="40dp">
+            app:cardCornerRadius="30dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="5dp"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/profi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="PROFILE"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/hijau"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/band"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Bandung"
+                    android:layout_below="@+id/profi"
+                    android:textAlignment="center"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/hijau"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/alama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/band"
+                    android:hint="Giri Mekar Permai, Blob B.72"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/hijau"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
 
 
                 <TextView
-                    android:id="@+id/alamat"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/ttl"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:includeFontPadding="false"
-                    android:text="8708213046"
-                    android:textColor="@color/hijau"
-                    android:textSize="17sp"
+                    android:layout_below="@+id/alama"
+                    android:hint="Makassar, 04 Desember 2002"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_marginTop="20dp"
                     android:textStyle="bold" />
+
+
+
+                <TextView
+                    android:id="@+id/nop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ttl"
+                    android:hint="085624164709"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/editButton"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/nop"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="@color/hijau"
+                    android:baselineAligned="false"
+                    android:elevation="20dp"
+                    android:text="EDIT PROFILE"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:cornerRadius="50dp" />
+
+                <Button
+                    android:id="@+id/Logout"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/editButton"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="@color/hijau"
+                    android:baselineAligned="false"
+                    android:elevation="20dp"
+                    android:text="Logout"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:cornerRadius="50dp" />
+
 
             </RelativeLayout>
 
@@ -121,133 +210,17 @@
 
     </LinearLayout>
 
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="15dp" />
-
-    
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="35dp" />
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        app:cardCornerRadius="15dp"
-        app:cardElevation="10dp">
-
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="0dp"
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:orientation="vertical"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="BANDUNG"
-                android:textAlignment="center"
-                android:textColor="@color/hijau"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="15dp" />
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        app:cardCornerRadius="15dp"
-        app:cardElevation="10dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="MAKASSAR, 04 DES 2002"
-                android:textAlignment="center"
-                android:textColor="@color/hijau"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="20dp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="50dp">
-
-        <Button
-            android:id="@+id/editButton"
-            android:layout_width="140dp"
-            android:layout_height="70dp"
-            android:layout_gravity="center"
-            android:layout_below="@+id/chat"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="0dp"
-            android:layout_marginLeft="55dp"
-            android:backgroundTint="@color/hijau"
-            android:baselineAligned="false"
-            android:text="EDIT PROFILE"
-            android:textColor="@color/white"
-            android:textSize="13sp"
-            app:cornerRadius="12dp"
-            android:elevation="20dp"/>
-
-        <Button
-            android:id="@+id/Logout"
-            android:layout_width="140dp"
-            android:layout_height="70dp"
-            android:layout_gravity="center"
-            android:layout_below="@+id/chat"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="0dp"
-            android:backgroundTint="@color/hijau"
-            android:baselineAligned="false"
-            android:text="Logout"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
-            android:textSize="13sp"
-            app:cornerRadius="12dp"
-            android:elevation="20dp"/>
-    </LinearLayout>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        app:cardCornerRadius="0dp">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:orientation="vertical"
-
             >
 
 

@@ -17,14 +17,16 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 
 class home : AppCompatActivity() {
-    private lateinit var logoreu: Button
+    private lateinit var dash: Button
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home)
-        logoreu = findViewById(R.id.logoreu)
-        logoreu.setOnClickListener {
+        dash = findViewById(R.id.dash)
+
+        dash.setOnClickListener {
             showDialog()
         }
 
@@ -63,7 +65,7 @@ class home : AppCompatActivity() {
         }
         pindahchat.setOnClickListener {
             val _intentpindah =
-                Intent(this, pesan::class.java)
+                Intent(this, Listview::class.java)
             startActivity(_intentpindah)
         }
         pindahnews.setOnClickListener {

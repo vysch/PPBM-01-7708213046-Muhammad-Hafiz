@@ -114,140 +114,86 @@
                     android:textStyle="italic" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
+
     </LinearLayout>
 
-    <HorizontalScrollView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Muhammad Hafiz!"
+            android:textColor="@color/hijau"
+            android:textSize="40sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Selamat datang di aplikasi Reunitez"
+            android:textColor="@color/hijau"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20sp"
+            android:text="dashboard"
+            android:backgroundTint="@color/hijau"
+            android:id="@+id/dash"
+            />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="500dp"
-            android:layout_marginTop="-30dp"
-            android:orientation="horizontal"
-            >
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="9dp"
+            android:background="@color/white"
+            android:orientation="vertical">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="300dp"
-                android:layout_height="400dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="20dp"
-                android:backgroundTint="@color/white"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="40dp">
 
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="300dp"
-                    android:layout_height="340dp"
-                    app:cardElevation="20dp"
-                    app:cardCornerRadius="40dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="89dp"
+                android:text="Reunitez"
+                android:textAlignment="center"
+                android:textColor="@color/hijau"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="370dp"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="370dp"
-                            android:layout_centerInParent="true"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/poto1" />
-                    </RelativeLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-
-                <Button
-                    android:layout_width="450dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="170dp"
-                    android:backgroundTint="@color/hijau"
-                    android:src="@drawable/satu"
-                    android:text="DASHBOARD"
-                    android:textColor="@color/white" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="300dp"
-                android:layout_height="400dp"
-                android:layout_gravity="center"
-                android:layout_marginRight="20dp"
-                android:backgroundTint="@color/hijau"
-                app:cardElevation="20dp"
-                app:cardCornerRadius="40dp">
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="300dp"
-                    android:layout_height="340dp"
-                    app:cardElevation="20dp"
-                    app:cardCornerRadius="40dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="370dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="370dp"
-                            android:scaleType="center"
-                            android:src="@drawable/das"/>
-                    </RelativeLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-                <Button
-                    android:layout_width="400dp"
-                    android:layout_height="150dp"
-                    android:layout_marginTop="170dp"
-                    android:id="@+id/logoreu"
-                    android:text="DASHBOARD"
-                    android:textColor="@color/white"
-                    android:src="@drawable/satu"
-                    android:backgroundTint="@color/hijau"
-                    android:layout_gravity="center"
-                    />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="300dp"
-                android:layout_height="400dp"
-                android:layout_gravity="center"
-                android:backgroundTint="@color/hijau"
-                app:cardElevation="20dp"
-                app:cardCornerRadius="40dp">
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="300dp"
-                    android:layout_height="340dp"
-                    app:cardElevation="20dp"
-                    app:cardCornerRadius="40dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="370dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="370dp"
-                            android:scaleType="center"
-                            android:src="@drawable/poto5"/>
-                    </RelativeLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-                <Button
-                    android:layout_width="300dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="170dp"
-                    android:text="DASHBOARD"
-                    android:textColor="@color/white"
-                    android:src="@drawable/satu"
-                    android:backgroundTint="@color/hijau"
-                    android:layout_gravity="center"
-                    />
-            </androidx.cardview.widget.CardView>
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_marginBottom="5dp"
+                android:text="relationship unforgotable in twenty second generation"
+                android:textAlignment="center"
+                android:textColor="@color/hijau"
+                android:textSize="12sp"
+                android:textStyle="italic" />
 
         </LinearLayout>
-    </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+
 </LinearLayout>
